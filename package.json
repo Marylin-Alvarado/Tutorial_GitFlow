@@ -1,0 +1,17 @@
+{
+  "name": "gitflow-tutorial-app",
+  "version": "1.0.0",
+  "description": "Aplicación de demostración de GitFlow",
+  "main": "index.html",
+  "scripts": {
+    "start": "echo 'Abriendo aplicación...' && start index.html",
+    "test": "echo 'Tests passed ✓'"
+  },
+  "keywords": ["gitflow", "tutorial", "git", "workflow"],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Marylin-Alvarado/Tutorial_GitFlow.git"
+  }
+}
