@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - GitFlow Demo</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <header class="dashboard-header">
+            <h1>Panel de Control</h1>
+            <button id="logoutBtn">Cerrar Sesión</button>
+        </header>
+        
+        <div class="dashboard-content">
+            <div class="card">
+                <h2>📊 Estadísticas</h2>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-value" id="totalUsers">1,234</span>
+                        <span class="stat-label">Usuarios</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="activeProjects">42</span>
+                        <span class="stat-label">Proyectos</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="pendingTasks">87</span>
+                        <span class="stat-label">Tareas</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h2>📈 Actividad Reciente</h2>
+                <ul id="activityList">
+                    <li>Usuario nuevo registrado - hace 2 min</li>
+                    <li>Proyecto "GitFlow Tutorial" actualizado - hace 15 min</li>
+                    <li>Tarea completada por el equipo - hace 1 hora</li>
+                </ul>
+            </div>
+            
+            <div class="card">
+                <h2>⚡ Acciones Rápidas</h2>
+                <div class="actions">
+                    <button class="action-btn">+ Nuevo Proyecto</button>
+                    <button class="action-btn">+ Agregar Usuario</button>
+                    <button class="action-btn">📝 Nueva Tarea</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="dashboard.js"></script>
+</body>
+</html>
